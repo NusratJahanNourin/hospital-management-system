@@ -1,1 +1,5 @@
-# hospital-management-system
+
+This project is a Hospital Management System implemented as a RESTful API using Spring Boot (Java). It provides a backend solution for managing core hospital operations, including patients, doctors, departments, appointments, medical records, billing, and staff. The system follows a layered architecture (Controller, Service, Repository) and leverages Spring Data JPA for database interactions. Below is a detailed description of the project based on the provided code:
+
+Project Overview
+The Hospital Management System is designed to handle various entities and their relationships within a hospital environment. It exposes REST endpoints under the /api base path for CRUD (Create, Read, Update, Delete) operations and additional functionalities like filtering and status updates. The system is modular, with each entity (e.g., Patient, Doctor, Appointment) having dedicated controllers and services, ensuring separation of concerns and scalability.
